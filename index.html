@@ -10,35 +10,36 @@
 
     <div class="sidebar">
         <div class="sb-container">
-            <h1>Dashboard</h1>
+            
+            <h1><img class="sidebar-icon dashboard-icon" src="/svg/view-dashboard.svg" alt="dashboard icon">Dashboard</h1>
         </div>
 
         <div class="sb-container">
             <ul>
-                <li><a href="/" class="sb-link">Home</a></li>
-                <li><a href="/" class="sb-link">Profile</a></li>
-                <li><a href="/" class="sb-link">Messages</a></li>
-                <li><a href="/" class="sb-link">History</a></li>
-                <li><a href="/" class="sb-link">Tasks</a></li>
-                <li><a href="/" class="sb-link">Communities</a></li>
+                <li><img class="sidebar-icon" src="/svg/home.svg" alt="home icon"><a href="/" class="sb-link">Home</a></li>
+                <li><img src="/svg/card-account-details.svg" alt="profile icon" class="sidebar-icon"><a href="/" class="sb-link">Profile</a></li>
+                <li><img src="/svg/message-reply.svg" alt="message icon" class="sidebar-icon"><a href="/" class="sb-link">Messages</a></li>
+                <li><img src="/svg/history.svg" alt="history icon" class="sidebar-icon"><a href="/" class="sb-link">History</a></li>
+                <li><img src="/svg/calendar-check.svg" alt="tasks icon" class="sidebar-icon"><a href="/" class="sb-link">Tasks</a></li>
+                <li><img src="/svg/account-group.svg" alt="communities icon" class="sidebar-icon"><a href="/" class="sb-link">Communities</a></li>
             </ul>
         </div>
 
         <div class="sb-container">
             <ul>
-                <li><a href="/" class="sb-link">Settings</a></li>
-                <li><a href="/" class="sb-link">Support</a></li>
-                <li><a href="/" class="sb-link">Privacy</a></li>
+                <li><img src="/svg/cog.svg" alt="setting icon" class="sidebar-icon"><a href="/" class="sb-link">Settings</a></li>
+                <li><img src="/svg/comment-question.svg" alt="support icon" class="sidebar-icon"><a href="/" class="sb-link">Support</a></li>
+                <li><img src="/svg/shield-check.svg" alt="privacy icon" class="sidebar-icon"><a href="/" class="sb-link">Privacy</a></li>
             </ul>
         </div>
     </div>
 
     <div class="header">
         <div class="header-search">
-            <button type="submit" for="search" class="search-btn">Icon</button>
+            <img src="/svg/magnify.svg" alt="search icon" class="icon">
             <input type="text" name="search" id="search" class="search-bar">
             
-            <p>Icon</p>
+            <img src="/svg/bell-ring-outline.svg" alt="bell icon" class="icon">
             <p>Picture</p>
             <h3>Morgan Oakley</h3>
         </div>
@@ -66,103 +67,122 @@
 
     <div class="content">
 
-        <div class="content-container">
-            <p class="content-title">Your Projects</p>
+        <div class="content-container project-container">
+        <p class="content-title">Your Projects</p>
 
-            <div class="project-container">
+            <div class="project-inner">
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">Super Cool Project</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In nemo eius ad cumque voluptatum praesentium.</p>
+                    <div>
+                        <p class="card-title">Super Cool Project</p>
+                        <p class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In nemo eius ad cumque voluptatum praesentium.</p>
                     </div>
-                    <div class="card-icons"></div>
+                    <div class="card-icons">
+                        <img src="/svg/star-plus-outline.svg" alt="star icon" class="icon card-icon">
+                        <img src="/svg/eye-plus-outline.svg" alt="eye icon" class="icon card-icon">
+                        <img src="/svg/source-fork.svg" alt="fork icon" class="icon card-icon">
+                    </div>
                 </div>
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">Less Cool Project</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum iusto maiores iste. Quo mollitia excepturi beatae est quos eum velit tenetur inventore vitae ab?</p>
+                    <p class="card-title">Less Cool Project</p>
+                    <p class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum iusto maiores iste. Quo mollitia excepturi beatae est quos eum velit tenetur inventore vitae ab?</p>
+                    <div class="card-icons">
+                        <img src="/svg/star-plus-outline.svg" alt="star icon" class="icon card-icon">
+                        <img src="/svg/eye-plus-outline.svg" alt="eye icon" class="icon card-icon">
+                        <img src="/svg/source-fork.svg" alt="fork icon" class="icon card-icon">
                     </div>
-                    <div class="card-icons"></div>
                 </div>
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">Impossible App</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, minus.</p>
+                    <p class="card-title">Impossible App</p>
+                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, minus.</p>
+                    <div class="card-icons">
+                        <img src="/svg/star-plus-outline.svg" alt="star icon" class="icon card-icon">
+                        <img src="/svg/eye-plus-outline.svg" alt="eye icon" class="icon card-icon">
+                        <img src="/svg/source-fork.svg" alt="fork icon" class="icon card-icon">
                     </div>
-                    <div class="card-icons"></div>
                 </div>
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">Easy Peasy App</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi ipsa ab. Deserunt nam voluptates officiis officia repudiandae debitis praesentium?</p>
+                    <p class="card-title">Easy Peasy App</p>
+                    <p class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi ipsa ab. Deserunt nam voluptates officiis officia repudiandae debitis praesentium?</p>
+                    <div class="card-icons">
+                        <img src="/svg/star-plus-outline.svg" alt="star icon" class="icon card-icon">
+                        <img src="/svg/eye-plus-outline.svg" alt="eye icon" class="icon card-icon">
+                        <img src="/svg/source-fork.svg" alt="fork icon" class="icon card-icon">
                     </div>
-                    <div class="card-icons"></div>
                 </div>
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">Ad Blocker</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur laudantium ullam reiciendis saepe quis ut voluptatibus culpa velit repellat!</p>
+                    <p class="card-title">Ad Blocker</p>
+                    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur laudantium ullam reiciendis saepe quis ut voluptatibus culpa velit repellat!</p>
+                    <div class="card-icons">
+                        <img src="/svg/star-plus-outline.svg" alt="star icon" class="icon card-icon">
+                        <img src="/svg/eye-plus-outline.svg" alt="eye icon" class="icon card-icon">
+                        <img src="/svg/source-fork.svg" alt="fork icon" class="icon card-icon">
                     </div>
-                    <div class="card-icons"></div>
                 </div>
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">Money Maker</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis soluta tempora eveniet optio, accusantium aliquam nesciunt eius nostrum voluptatem earum vel numquam eligendi ad?</p>
+                    <p class="card-title">Money Maker</p>
+                    <p class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis soluta tempora eveniet optio, accusantium aliquam nesciunt eius nostrum voluptatem earum vel numquam eligendi ad?</p>
+                    <div class="card-icons">
+                        <img src="/svg/star-plus-outline.svg" alt="star icon" class="icon card-icon">
+                        <img src="/svg/eye-plus-outline.svg" alt="eye icon" class="icon card-icon">
+                        <img src="/svg/source-fork.svg" alt="fork icon" class="icon card-icon">
                     </div>
-                    <div class="card-icons"></div>
                 </div>
             </div>
 
         </div>
 
         <div class="content-container">
-            <p class="content-title">Annoucements</p>
-            
-            <div class="announcement-container">
-                <div class="announce">
+        <p class="content-title">Annoucements</p>
+                
+            <div class="announcement-inner">
+                <div class="announce-item">
                     <p class="announce-title">Site Maintenence</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quos laboriosam temporibus labore dicta vitae?</p>
+                    <p class="announce-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi nobis architecto culpa, minima itaque.</p>
                 </div>
-                <div class="announce">
+                <div class="announce-item">
                     <p class="announce-title">Community Share Day</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, adipisci!</p>
+                    <p class="announce-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sequi ex voluptates quis, praesentium est.</p>
                 </div>
-                <div class="announce">
+                <div class="announce-item">
                     <p class="announce-title">Updated Privacy Policy</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quos laboriosam temporibus labore dicta vitae?</p>
+                    <p class="announce-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quos laboriosam temporibus labore dicta vitae?</p>
                 </div>
-
-
             </div>
 
         </div>
 
         <div class="content-container">
-            <p class="content-title">Trending</p>
+        <p class="content-title">Trending</p>
 
-            <div class="trend-container">
+            <div class="trending-inner">
                 <div class="trend-item">
                     <p>ICON</p>
-                    <p>@tegan</p>
-                    <p class="trend-info">World Peace Builder</p>
+                    <div>
+                        <p>@tegan</p>
+                        <p class="trend-content">World Peace Builder</p>
+                    </div>
                 </div>
                 <div class="trend-item">
                     <p>ICON</p>
-                    <p>@morgan</p>
-                    <p class="trend-info">Super Cool Project</p>
+                    <div>
+                        <p>@morgan</p>
+                        <p class="trend-content">Super Cool Project</p>
+                    </div>
                 </div>
                 <div class="trend-item">
                     <p>ICON</p>
-                    <p>@kendall</p>
-                    <p class="trend-info">Life Changing App</p>
+                    <div>
+                        <p>@kendall</p>
+                        <p class="trend-content">Life Changing App</p>
+                    </div>
                 </div>
                 <div class="trend-item">
                     <p>ICON</p>
-                    <p>@alex</p>
-                    <p class="trend-info">No Traffic Maker</p>
+                    <div>
+                        <p>@alex</p>
+                        <p class="trend-content">No Traffic Maker</p>
+                    </div>
                 </div>
-
             </div>
 
         </div>
